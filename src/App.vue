@@ -26,6 +26,12 @@ import StyleScoped from './components/practices/basic/StyleScoped.vue'
 // Composition API
 import ReactiveRef from './components/practices/composition/ReactiveRef.vue'
 import ReactiveReactive from './components/practices/composition/ReactiveReactive.vue'
+import ComputedBasic from './components/practices/composition/ComputedBasic.vue'
+import WatchersBasic from './components/practices/composition/WatchersBasic.vue'
+import WatchersMulti from './components/practices/composition/WatchersMulti.vue'
+import WatchersDeep from './components/practices/composition/WatchersDeep.vue'
+import WatchersReactive from './components/practices/composition/WatchersReactive.vue'
+import WatchersWatchEffect from './components/practices/composition/WatchersWatchEffect.vue'
 
 const current = ref('SampleOne')
 
@@ -55,6 +61,12 @@ const components = {
   // Composition API
   ReactiveRef,
   ReactiveReactive,
+  ComputedBasic,
+  WatchersBasic,
+  WatchersMulti,
+  WatchersDeep,
+  WatchersReactive,
+  WatchersWatchEffect,
 }
 </script>
 
