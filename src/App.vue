@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-
+// 수업 실습 내용
 import SampleOne from './components/practices/basic/SampleOne.vue'
 import SampleTwo from './components/practices/basic/SampleTwo.vue'
 import Vuehtml from './components/practices/basic/Vuehtml.vue'
@@ -18,6 +18,10 @@ import VueMemo from './components/practices/basic/VueMemo.vue'
 import EventBasic from './components/practices/basic/EventBasic.vue'
 import EventObject from './components/practices/basic/EventObject.vue'
 import EventModifier from './components/practices/basic/EventModifier.vue'
+import ModelBasic from './components/practices/basic/ModelBasic.vue'
+import ModelForm from './components/practices/basic/ModelForm.vue'
+import ModelModifier from './components/practices/basic/ModelModifier.vue'
+import StyleScoped from './components/practices/basic/StyleScoped.vue'
 
 const current = ref('SampleOne')
 
@@ -39,6 +43,10 @@ const components = {
   EventBasic,
   EventObject,
   EventModifier,
+  ModelBasic,
+  ModelForm,
+  ModelModifier,
+  StyleScoped,
 }
 </script>
 
