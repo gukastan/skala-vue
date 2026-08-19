@@ -16,6 +16,8 @@ import VueShow from './components/practices/basic/VueShow.vue'
 import VueOnce from './components/practices/basic/VueOnce.vue'
 import VueMemo from './components/practices/basic/VueMemo.vue'
 import EventBasic from './components/practices/basic/EventBasic.vue'
+import EventObject from './components/practices/basic/EventObject.vue'
+import EventModifier from './components/practices/basic/EventModifier.vue'
 
 const current = ref('SampleOne')
 
@@ -35,6 +37,8 @@ const components = {
   VueOnce,
   VueMemo,
   EventBasic,
+  EventObject,
+  EventModifier,
 }
 </script>
 
