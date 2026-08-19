@@ -9,6 +9,13 @@ import VueBindShorthand from './components/practices/basic/VueBindShorthand.vue'
 import VueBindStyle from './components/practices/basic/VueBindStyle.vue'
 import VueText from './components/practices/basic/VueText.vue'
 import Vueif from './components/practices/basic/Vueif.vue'
+import VueFor from './components/practices/basic/VueFor.vue'
+import VuePre from './components/practices/basic/VuePre.vue'
+import VueCloak from './components/practices/basic/VueCloak.vue'
+import VueShow from './components/practices/basic/VueShow.vue'
+import VueOnce from './components/practices/basic/VueOnce.vue'
+import VueMemo from './components/practices/basic/VueMemo.vue'
+import EventBasic from './components/practices/basic/EventBasic.vue'
 
 const current = ref('SampleOne')
 
@@ -21,6 +28,13 @@ const components = {
   VueBindStyle,
   VueText,
   Vueif,
+  VueFor,
+  VuePre,
+  VueCloak,
+  VueShow,
+  VueOnce,
+  VueMemo,
+  EventBasic,
 }
 </script>
 
