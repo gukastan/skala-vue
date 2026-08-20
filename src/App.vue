@@ -35,6 +35,8 @@ import WatchersWatchEffect from './components/practices/composition/WatchersWatc
 // Vue Components
 import LifecycleChild from './components/practices/component/LifecycleChild.vue'
 import LifecycleParent from './components/practices/component/LifecycleParent.vue'
+import PropsEmitsChild from './components/practices/component/PropsEmitsChild.vue'
+import PropsEmitsParent from './components/practices/component/PropsEmitsParent.vue'
 
 const current = ref('SampleOne')
 
@@ -73,6 +75,8 @@ const components = {
   // Components
   LifecycleChild,
   LifecycleParent,
+  PropsEmitsChild,
+  PropsEmitsParent,
 }
 </script>
 
