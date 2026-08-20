@@ -34,6 +34,7 @@ import WatchersReactive from './components/practices/composition/WatchersReactiv
 import WatchersWatchEffect from './components/practices/composition/WatchersWatchEffect.vue'
 // Vue Components
 import LifecycleChild from './components/practices/component/LifecycleChild.vue'
+import LifecycleParent from './components/practices/component/LifecycleParent.vue'
 
 const current = ref('SampleOne')
 
@@ -71,6 +72,7 @@ const components = {
   WatchersWatchEffect,
   // Components
   LifecycleChild,
+  LifecycleParent,
 }
 </script>
 
