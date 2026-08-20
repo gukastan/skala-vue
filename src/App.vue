@@ -32,6 +32,8 @@ import WatchersMulti from './components/practices/composition/WatchersMulti.vue'
 import WatchersDeep from './components/practices/composition/WatchersDeep.vue'
 import WatchersReactive from './components/practices/composition/WatchersReactive.vue'
 import WatchersWatchEffect from './components/practices/composition/WatchersWatchEffect.vue'
+// Vue Components
+import LifecycleChild from './components/practices/component/LifecycleChild.vue'
 
 const current = ref('SampleOne')
 
@@ -67,6 +69,8 @@ const components = {
   WatchersDeep,
   WatchersReactive,
   WatchersWatchEffect,
+  // Components
+  LifecycleChild,
 }
 </script>
 
