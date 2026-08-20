@@ -37,6 +37,12 @@ import LifecycleChild from './components/practices/component/LifecycleChild.vue'
 import LifecycleParent from './components/practices/component/LifecycleParent.vue'
 import PropsEmitsChild from './components/practices/component/PropsEmitsChild.vue'
 import PropsEmitsParent from './components/practices/component/PropsEmitsParent.vue'
+import SlotDefaultChild from './components/practices/component/SlotDefaultChild.vue'
+import SlotDefaultParent from './components/practices/component/SlotDefaultParent.vue'
+import SlotNamedChild from './components/practices/component/SlotNamedChild.vue'
+import SlotNamedParent from './components/practices/component/SlotNamedParent.vue'
+import SlotScopedChild from './components/practices/component/SlotScopedChild.vue'
+import SlotScopedParent from './components/practices/component/SlotScopedParent.vue'
 
 const current = ref('SampleOne')
 
@@ -77,6 +83,12 @@ const components = {
   LifecycleParent,
   PropsEmitsChild,
   PropsEmitsParent,
+  SlotDefaultChild,
+  SlotDefaultParent,
+  SlotNamedChild,
+  SlotNamedParent,
+  SlotScopedChild,
+  SlotScopedParent,
 }
 </script>
 
